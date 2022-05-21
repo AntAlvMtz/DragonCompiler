@@ -121,7 +121,6 @@ public class Compilador extends javax.swing.JFrame {
         jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jToolBar1.setBorder(new javax.swing.border.MatteBorder(null));
-        jToolBar1.setFloatable(false);
         jToolBar1.add(jSeparator4);
 
         btnNuevo.setFont(new java.awt.Font("Consolas", 0, 13)); // NOI18N
@@ -305,7 +304,7 @@ public class Compilador extends javax.swing.JFrame {
                         .addGap(111, 111, 111)
                         .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(0, 5, Short.MAX_VALUE)
+                        .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(vtnTexto, javax.swing.GroupLayout.PREFERRED_SIZE, 509, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
