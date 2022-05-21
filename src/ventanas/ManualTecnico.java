@@ -47,7 +47,7 @@ public class ManualTecnico extends javax.swing.JFrame {
         lblManualTecnico.setText("Manual Técnico");
 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/zimagenes/volver.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/back.png"))); // NOI18N
         jLabel1.setText("Volver");
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/zimagenes/banner2.PNG"))); // NOI18N
@@ -63,8 +63,8 @@ public class ManualTecnico extends javax.swing.JFrame {
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1229, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(242, 242, 242)
+                        .addComponent(jLabel1)
+                        .addGap(281, 281, 281)
                         .addComponent(jLabel2))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(462, 462, 462)
